@@ -1,0 +1,59 @@
+{
+    "personalInfo": {
+        "name": "Mustafa Alsaqer",
+        "title": "Computer Engineer",
+        "email": "mustafamajidalsaqar@gmail.com",
+        "phone": "+964 0782 5868 547",
+        "location": "Baghdad, Iraq",
+        "summary": "Passionate web developer with 5+ years of experience in creating modern, responsive web applications. Specialized in JavaScript, React, and Node.js. Strong problem-solving skills and a commitment to writing clean, efficient code."
+    },
+    "skills": [
+        "HTML5 & CSS3",
+        "JavaScript (ES6+)",
+        "React.js",
+        "Node.js",
+        "Python",
+        "SQL & MongoDB",
+        "Git & GitHub",
+        "Responsive Design",
+        "RESTful APIs",
+        "UI/UX Design"
+    ],
+    "experience": [
+        {
+            "position": "Computer Engineer",
+            "company": "Tech Solutions Inc.",
+            "period": "2020 - Present",
+            "description": "Led development of complex web applications using React and Node.js. Worked with a team of 5 developers to improve application performance by 40%."
+        },
+        {
+            "position": "Web Developer",
+            "company": "Digital Solutions LLC",
+            "period": "2018 - 2020",
+            "description": "Developed and deployed interactive user interfaces using JavaScript and React. Participated in database design and optimization."
+        },
+        {
+            "position": "Junior Developer",
+            "company": "WebStart Agency",
+            "period": "2017 - 2018",
+            "description": "Created responsive websites for various clients. Assisted in maintaining and updating existing projects."
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of IT in Computer Science",
+            "institution": "University of Basra",
+            "year": "2017"
+        },
+        {
+            "degree": "Master of Engineering in Network Engineering ",
+            "institution": "Code Academy",
+            "year": "2016"
+        }
+    ],
+    "languages": [
+        {"name": "Arabic", "level": "Native"},
+        {"name": "English", "level": "Intermediate"},
+        {"name": "Persian", "level": "Basic"}
+    ]
+}
