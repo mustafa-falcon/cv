@@ -34,6 +34,7 @@ header {
     text-align: center;
     position: relative;
     overflow: hidden;
+    position: relative;
 }
 
 header::before {
@@ -43,10 +44,17 @@ header::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: image-set("images/cover7.jpg");
+    background-image: url("images/cover7.jpg");
     /* background: url('https://static.vecteezy.com/system/resources/thumbnails/020/265/111/small_2x/world-map-connection-futuristic-modern-website-background-or-cover-page-for-technology-and-finance-concept-and-education-future-company-vector.jpg'); */
     /* background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0,0 L100,0 L100,100 Z" fill="rgba(255,255,255,0.1)"/></svg>'); */
-    background-size: 100% 100%;
+    background-size: cover;
+}
+@media (max-width: 768px) {
+  header::before {
+    background-image: url('images/cover-mob.jpg');
+    background-size: cover;
+    
+  }
 }
 
 .profile-img {
